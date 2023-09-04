@@ -1,0 +1,46 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+html {
+  background: linear-gradient(320deg, #ff8933, #ffbf33, #91e6a7, #bec2b8);
+
+  height: 100%;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 12px;
+  margin: 100px 10px 10px 10px;
+  border-radius: 14px;
+  background: transparent;
+  background: linear-gradient(320deg, #86f3c6, #e9d8b5, #91e6a7, #bec2b8);
+  font-size: 13 px;
+}
+#val {
+  width: 30vw;
+}
+button {
+  /* color: #ff8933; */
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid;
+}
+button:hover {
+  /* color: #ff8933; */
+  background: linear-gradient(320deg, #86f3c6, #e9d8b5, #91e6a7, #bec2b8);
+  border-radius: 10px;
+  border: 1px solid;
+  cursor: pointer;
+}
+.ol-div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
